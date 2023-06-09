@@ -1,5 +1,5 @@
-const numero_exercicio = 500
+function numberLength(numeroExercicio){
+    return String(numeroExercicio).length
+}
 
-console.log(String(numero_exercicio).length)
-
-// function 
+console.log(numberLength(500))
