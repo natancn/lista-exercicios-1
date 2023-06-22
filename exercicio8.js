@@ -11,4 +11,14 @@ function fibas(soma){
     }
     return numFi
 }
-console.log(fibas())
+console.log(fibas(4))
+
+
+function fibonacci(num) {
+    if(num < 2) {
+        return num
+    }
+
+    return fibonacci(num - 1) + fibonacci(num - 2) 
+}
+console.log(fibonacci(8))
